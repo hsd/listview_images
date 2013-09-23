@@ -1,0 +1,4 @@
+listview-images
+===============
+
+OpenERP module to enable image display in OpenERP list views
