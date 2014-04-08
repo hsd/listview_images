@@ -19,5 +19,4 @@
     'category': 'Hidden',
     'depends': ['web'],
     'js': ['static/src/js/view_list.js'],
-    'auto_install': True
 }
