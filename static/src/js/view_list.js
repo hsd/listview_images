@@ -16,8 +16,7 @@ openerp.listview_images = function(instance) {
 
             if (value && value.substr(0, 10).indexOf(' ') == -1) {
 		/* Data inline */
-		/* FIXME: can we get the mimetype from the data? */
-		img_url = "data:image/png;base64," + value;
+		img_url = "data:application/octet-stream;base64," + value;
 	    } else {
 		/* Data by URI (presumably slow) */
 		img_url = instance.session.url('/web/binary/image', {model: options.model, field: this.id, id: options.id});
