@@ -18,5 +18,5 @@
     'description': "Makes binary image fields display in list and tree views",
     'category': 'Hidden',
     'depends': ['web'],
-    'js': ['static/src/js/view_list.js'],
+    'data': ['views/listview_images_assets.xml'],
 }
