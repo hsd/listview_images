@@ -1,4 +1,5 @@
-#-*- mode:org -*-
 * listview-images
 
 OpenERP module to enable image display in OpenERP list views
+
+This module has been replaced by https://github.com/OCA/web/tree/8.0/web_tree_image
